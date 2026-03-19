@@ -1,0 +1,14 @@
+{
+  "name": "노아토익 자동사",
+  "short_name": "노아토익",
+  "description": "TOEIC 자동사 완전 정복 학습 앱",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf7f4",
+  "theme_color": "#e8a0b4",
+  "orientation": "portrait",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
