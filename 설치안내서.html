@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>노아토익 자동사 앱 설치 안내</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#faf7f4;color:#2d2a26;min-height:100vh}
+.page{max-width:480px;margin:0 auto;padding:24px 20px 40px}
+.header{text-align:center;margin-bottom:32px}
+.header .icon{width:80px;height:80px;border-radius:20px;background:#f7dada;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:2rem;font-weight:900;color:#fff;position:relative}
+.header .icon .vi-badge{position:absolute;bottom:-4px;right:-4px;background:#7bbcd6;color:#fff;font-size:.55rem;font-weight:700;padding:2px 6px;border-radius:6px}
+.header h1{font-size:1.4rem;font-weight:900;margin-bottom:4px}
+.header p{font-size:.85rem;color:#8a8580}
+.app-link-btn{display:inline-block;margin-top:16px;padding:12px 28px;border-radius:50px;background:linear-gradient(135deg,#e8a0b4,#c3b1e1);color:#fff;font-size:.9rem;font-weight:700;text-decoration:none;box-shadow:0 4px 16px rgba(232,160,180,.3);transition:all .3s}
+.app-link-btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(232,160,180,.4)}
+.app-link-btn:active{transform:scale(.96)}
+
+.section{margin-bottom:28px}
+.section-title{display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.section-title .os-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
+.section-title .os-icon.android{background:rgba(123,188,214,.15);color:#7bbcd6}
+.section-title .os-icon.iphone{background:rgba(232,170,178,.15);color:#e8aab2}
+.section-title h2{font-size:1.05rem;font-weight:700}
+
+.steps{display:flex;flex-direction:column;gap:12px}
+.step{background:#fff;border:1px solid rgba(45,42,38,.06);border-radius:14px;padding:16px;display:flex;gap:14px;align-items:flex-start}
+.step-num{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;flex-shrink:0;color:#fff}
+.step-num.android-num{background:#7bbcd6}
+.step-num.iphone-num{background:#e8aab2}
+.step-content{flex:1}
+.step-content .main{font-weight:700;font-size:.9rem;margin-bottom:4px}
+.step-content .sub{font-size:.78rem;color:#8a8580;line-height:1.5}
+.step-content .highlight{display:inline-block;background:rgba(123,188,214,.12);color:#5a9bb0;padding:1px 8px;border-radius:6px;font-weight:700;font-size:.78rem}
+.step-content .highlight.pink{background:rgba(232,170,178,.12);color:#c48a92}
+
+.mock-ui{background:#f0ecec;border-radius:10px;margin-top:8px;padding:10px 12px;font-size:.75rem;color:#8a8580;display:flex;align-items:center;gap:6px}
+.mock-ui .btn{background:#7bbcd6;color:#fff;padding:4px 10px;border-radius:6px;font-size:.7rem;font-weight:700}
+.mock-ui .btn.pink{background:#e8aab2}
+.mock-dots{display:flex;gap:3px;margin-right:4px}
+.mock-dots span{width:4px;height:4px;border-radius:50%;background:#b5b0ab}
+
+.tip-box{background:linear-gradient(135deg,rgba(195,177,225,.1),rgba(232,160,180,.08));border:1px solid rgba(195,177,225,.12);border-radius:12px;padding:14px 16px;margin-top:20px}
+.tip-box .tip-label{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#c3b1e1;margin-bottom:6px}
+.tip-box p{font-size:.8rem;line-height:1.6;color:#8a8580}
+.tip-box .hl{color:#e8a0b4;font-weight:700}
+
+.divider{height:1px;background:rgba(45,42,38,.06);margin:24px 0}
+
+.qr-section{text-align:center;margin-top:24px}
+.qr-section p{font-size:.82rem;color:#8a8580;margin-bottom:8px}
+.qr-placeholder{width:120px;height:120px;background:#fff;border:2px dashed rgba(45,42,38,.1);border-radius:12px;display:flex;align-items:center;justify-content:center;margin:0 auto;font-size:.7rem;color:#b5b0ab;text-align:center;line-height:1.4}
+
+.footer{text-align:center;margin-top:32px;font-size:.72rem;color:#b5b0ab}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="icon">N<div class="vi-badge">Vi</div></div>
+    <h1>노아토익 자동사 앱</h1>
+    <p>설치 안내서</p>
+    <a href="https://noahtoeic.github.io/noah-toeic/" class="app-link-btn" target="_blank">앱 바로가기 →</a>
+  </div>
+
+  <!-- Android -->
+  <div class="section">
+    <div class="section-title">
+      <div class="os-icon android">🤖</div>
+      <h2>안드로이드 설치 방법</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num android-num">1</div>
+        <div class="step-content">
+          <div class="main">크롬(Chrome)으로 링크 접속</div>
+          <div class="sub">선생님이 공유한 링크를 <span class="highlight">크롬 브라우저</span>로 열어주세요.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num android-num">2</div>
+        <div class="step-content">
+          <div class="main">"앱 설치" 누르기</div>
+          <div class="sub">화면 하단에 설치 배너가 나타나면 바로 누르세요!<br>안 보이면 오른쪽 상단 <span class="highlight">⋮</span> → <span class="highlight">앱 설치</span></div>
+          <div class="mock-ui"><div class="btn">앱 설치</div> ← 이 버튼을 누르세요!</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num android-num">3</div>
+        <div class="step-content">
+          <div class="main">설치 완료! 🎉</div>
+          <div class="sub">홈 화면에 앱 아이콘이 생겨요. 앱처럼 바로 실행!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- iPhone -->
+  <div class="section">
+    <div class="section-title">
+      <div class="os-icon iphone">🍎</div>
+      <h2>아이폰 설치 방법</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num iphone-num">1</div>
+        <div class="step-content">
+          <div class="main">사파리(Safari)로 링크 접속</div>
+          <div class="sub">선생님이 공유한 링크를 <span class="highlight pink">사파리 브라우저</span>로 열어주세요.<br><span style="font-size:.72rem;color:#b5b0ab">⚠️ 카카오톡 내부 브라우저가 아닌 사파리로!</span></div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num iphone-num">2</div>
+        <div class="step-content">
+          <div class="main">공유 버튼 누르기</div>
+          <div class="sub">화면 하단의 <span class="highlight pink">□↑ 공유 버튼</span>을 누르세요.</div>
+          <div class="mock-ui"><div class="mock-dots"><span></span><span></span><span></span></div> ◁ &nbsp; □↑ &nbsp; ▷ ← 가운데 버튼!</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num iphone-num">3</div>
+        <div class="step-content">
+          <div class="main">"홈 화면에 추가" 선택</div>
+          <div class="sub">메뉴를 아래로 스크롤 → <span class="highlight pink">홈 화면에 추가</span>를 눌러주세요.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num iphone-num">4</div>
+        <div class="step-content">
+          <div class="main">설치 완료! 🎉</div>
+          <div class="sub">홈 화면에 앱 아이콘이 생겨요. 앱처럼 바로 실행!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tip-box">
+    <div class="tip-label">💡 참고</div>
+    <p>• 한 번 설치하면 <span class="hl">인터넷 없이도</span> 사용 가능해요<br>
+    • 학습 기록은 <span class="hl">내 폰에 자동 저장</span>돼요<br>
+    • 앱을 삭제하면 기록도 사라져요</p>
+  </div>
+
+  <div class="footer">NOAH TOEIC 자동사 · Vi</div>
+</div>
+</body>
+</html>
