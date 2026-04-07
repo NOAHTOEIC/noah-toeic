@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.noahtoeic.twa",
+        "sha256_cert_fingerprints": ["BA:29:9B:C7:1C:9A:C4:8D:6D:21:90:01:13:B0:4D:65:75:AB:88:4C:60:3F:39:03:B9:8C:41:97:ED:8A:66:06"]
+      }
+    }]
